@@ -17,14 +17,14 @@
 <p>  </p>
 
 <p> 
-    <?php echo $text; ?>
+    <?php echo $text . "Numero di caratteri: " . strlen($text) ?>
 </p>
 <p> 
-    Numero di caratteri:  <?php echo strlen($text); ?> ;
+    Numero di caratteri:  <?php echo strlen($text) ?> ;
 </p>
-<p> <?php echo $textCriptato; ?> </p>
+<p> <?php echo $textCriptato ?> </p>
 <p>
-    Numeri di caratteri: <?php echo strlen($textCriptato); ?> ;
+    Numeri di caratteri: <?php echo strlen($textCriptato) ?> ;
 </p>
 </body>
 </html>
