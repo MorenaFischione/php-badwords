@@ -14,7 +14,6 @@
 </head>
 <body>
 <h1>OSTELLO CAMPO IMPERATORE, NUOVA GESTIONE: “CREDIAMO NEL RILANCIO TURISTICO DEL GRAN SASSO”</h1>
-<p>  </p>
 
 <p> 
     <?php echo $text . "Numero di caratteri: " . strlen($text) ?>
